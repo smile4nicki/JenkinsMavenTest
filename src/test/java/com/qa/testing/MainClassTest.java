@@ -15,6 +15,6 @@ public class MainClassTest {
 	@Test
 	public void testFail() {
 		MainClass mainClass = new MainClass();
-		assertEquals(3, mainClass.additiony(1, 1));
+		assertEquals(3, mainClass.additiony(2, 1));
 	}
 }
